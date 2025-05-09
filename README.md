@@ -135,7 +135,7 @@ footer {
       <label for="name">Name:</label>
       <input type="text" id="name" name="name">
 
-      <label for="email">Email:</label>
+      <label for="email">vij_viraj@khalsaschool.ca:</label>
       <input type="email" id="email" name="email">
 
       <label for="message">Message:</label>
