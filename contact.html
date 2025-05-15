@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the homepage. Check out my work and get to know more about me.</p>
+    </div>
+    <footer>
+        &copy; 2025 My Portfolio
+    </footer>
+</body>
+</html>
+
+/* about.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>About Me</h1>
+        <p style="color: darkgreen;">I'm a passionate web developer with a love for clean and functional design.</p>
+    </div>
+    <footer>
+        &copy; 2025 My Portfolio
+    </footer>
+</body>
+</html>
+
+/* contact.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form input, form textarea {
+            display: block;
+            margin: 10px 0;
+            width: 100%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <form>
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" style="background-color: darkblue; color: white; padding: 10px 20px; border: none;">Send</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 My Portfolio
+    </footer>
+</body>
+</html>
