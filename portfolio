@@ -16,8 +16,8 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">This site is about me and my passions.</a></li>
+        <li><a href="contact.html">Contact me: vij_viraj@khalsaschool.ca</a></li>
       </ul>
     </nav>
   </header>
